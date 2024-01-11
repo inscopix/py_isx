@@ -2,57 +2,87 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://inscopix.github.io/py_isx/index.html</loc>
-         <lastmod>2024-01-08</lastmod>
+         <lastmod>2024-01-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://inscopix.github.io/py_isx/LICENSE.html</loc>
-         <lastmod>2024-01-08</lastmod>
+         <lastmod>2024-01-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://inscopix.github.io/py_isx/contributing.html</loc>
-         <lastmod>2024-01-08</lastmod>
+         <lastmod>2024-01-11</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://inscopix.github.io/py_isx/faq.html</loc>
+         <lastmod>2024-01-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://inscopix.github.io/py_isx/installing.html</loc>
-         <lastmod>2024-01-08</lastmod>
+         <lastmod>2024-01-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://inscopix.github.io/py_isx/how-to/read-cellset.html</loc>
-         <lastmod>2024-01-08</lastmod>
+         <loc>https://inscopix.github.io/py_isx/support.html</loc>
+         <lastmod>2024-01-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://inscopix.github.io/py_isx/how-to/read-cellsets-name.html</loc>
-         <lastmod>2024-01-08</lastmod>
+         <lastmod>2024-01-11</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://inscopix.github.io/py_isx/how-to/read-cellsets-num-cells.html</loc>
+         <lastmod>2024-01-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://inscopix.github.io/py_isx/how-to/read-cellsets-status.html</loc>
-         <lastmod>2024-01-08</lastmod>
+         <lastmod>2024-01-11</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://inscopix.github.io/py_isx/how-to/read-cellsets-trace.html</loc>
+         <lastmod>2024-01-11</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://inscopix.github.io/py_isx/how-to/read-movie-data-type.html</loc>
+         <lastmod>2024-01-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://inscopix.github.io/py_isx/how-to/read-movie-frame.html</loc>
-         <lastmod>2024-01-08</lastmod>
+         <lastmod>2024-01-11</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://inscopix.github.io/py_isx/how-to/read-movie-spacing.html</loc>
+         <lastmod>2024-01-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://inscopix.github.io/py_isx/how-to/read-movie-timing.html</loc>
-         <lastmod>2024-01-08</lastmod>
+         <lastmod>2024-01-11</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://inscopix.github.io/py_isx/how-to/version-number.html</loc>
+         <lastmod>2024-01-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://inscopix.github.io/py_isx/reference/classes.html</loc>
-         <lastmod>2024-01-08</lastmod>
+         <lastmod>2024-01-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://inscopix.github.io/py_isx/reference/functions.html</loc>
-         <lastmod>2024-01-08</lastmod>
+         <lastmod>2024-01-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
