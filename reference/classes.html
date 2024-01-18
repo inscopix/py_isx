@@ -20,7 +20,7 @@
       
       
       <link rel="icon" href="../favicon.png">
-      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.3">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.4">
     
     
       
@@ -343,6 +343,8 @@
       
         
       
+        
+      
     
     
     
@@ -448,6 +450,27 @@
   
   <span class="md-ellipsis">
     Read the status of a cell
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../how-to/read-cellsets-footprint.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Read the footprint of a cell
   </span>
   
 
@@ -1219,8 +1242,7 @@ is bound to a ISXD movie file that exists on disk.</p>
   </span>
 
 <a href="#isx.Movie.read" class="headerlink" title="Permanent link">&para;</a></h3>
-<div class="doc-signature codehilite"><pre><span></span><code><span class="n">read</span><span class="p">(</span><span class="n">file_path</span><span class="p">:</span> <span class="n">str</span><span class="p">)</span>
-</code></pre></div>
+<pre class="codehilite"><code class="language-python doc-signature">read(file_path: str)</code></pre>
 
   <div class="doc doc-contents ">
   
@@ -1295,8 +1317,7 @@ and does not read any frame data.</p>
 
 
 <a href="#isx.Movie.get_frame_data" class="headerlink" title="Permanent link">&para;</a></h3>
-<div class="doc-signature codehilite"><pre><span></span><code><span class="n">get_frame_data</span><span class="p">(</span><span class="n">index</span><span class="p">:</span> <span class="n">int</span><span class="p">)</span>
-</code></pre></div>
+<pre class="codehilite"><code class="language-python doc-signature">get_frame_data(index: int)</code></pre>
 
   <div class="doc doc-contents ">
   
@@ -1412,8 +1433,7 @@ class and what each function does.</p>
   </span>
 
 <a href="#isx.CellSet.read" class="headerlink" title="Permanent link">&para;</a></h3>
-<div class="doc-signature codehilite"><pre><span></span><code><span class="n">read</span><span class="p">(</span><span class="n">file_path</span><span class="p">:</span> <span class="n">str</span><span class="p">)</span>
-</code></pre></div>
+<pre class="codehilite"><code class="language-python doc-signature">read(file_path: str)</code></pre>
 
   <div class="doc doc-contents ">
   
@@ -1433,8 +1453,7 @@ class and what each function does.</p>
 
 
 <a href="#isx.CellSet.get_cell_trace_data" class="headerlink" title="Permanent link">&para;</a></h3>
-<div class="doc-signature codehilite"><pre><span></span><code><span class="n">get_cell_trace_data</span><span class="p">(</span><span class="n">cell_id</span><span class="p">:</span> <span class="n">int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n"><span title="numpy.array">array</span></span>
-</code></pre></div>
+<pre class="codehilite"><code class="language-python doc-signature">get_cell_trace_data(cell_id: int) -&gt; <span title="numpy.array">array</span></code></pre>
 
   <div class="doc doc-contents ">
   
@@ -1454,8 +1473,7 @@ class and what each function does.</p>
 
 
 <a href="#isx.CellSet.get_cell_image_data" class="headerlink" title="Permanent link">&para;</a></h3>
-<div class="doc-signature codehilite"><pre><span></span><code><span class="n">get_cell_image_data</span><span class="p">(</span><span class="n">cell_id</span><span class="p">:</span> <span class="n">int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n"><span title="numpy.array">array</span></span>
-</code></pre></div>
+<pre class="codehilite"><code class="language-python doc-signature">get_cell_image_data(cell_id: int) -&gt; <span title="numpy.array">array</span></code></pre>
 
   <div class="doc doc-contents ">
   
@@ -1530,8 +1548,7 @@ cell and returns that as a Numpy array.</p>
 
 
 <a href="#isx.CellSet.get_cell_name" class="headerlink" title="Permanent link">&para;</a></h3>
-<div class="doc-signature codehilite"><pre><span></span><code><span class="n">get_cell_name</span><span class="p">(</span><span class="n">cell_id</span><span class="p">:</span> <span class="n">int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">str</span>
-</code></pre></div>
+<pre class="codehilite"><code class="language-python doc-signature">get_cell_name(cell_id: int) -&gt; str</code></pre>
 
   <div class="doc doc-contents ">
   
@@ -1551,8 +1568,7 @@ cell and returns that as a Numpy array.</p>
 
 
 <a href="#isx.CellSet.get_cell_status" class="headerlink" title="Permanent link">&para;</a></h3>
-<div class="doc-signature codehilite"><pre><span></span><code><span class="n">get_cell_status</span><span class="p">(</span><span class="n">cell_id</span><span class="p">:</span> <span class="n">int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">str</span>
-</code></pre></div>
+<pre class="codehilite"><code class="language-python doc-signature">get_cell_status(cell_id: int) -&gt; str</code></pre>
 
   <div class="doc doc-contents ">
   
@@ -1916,10 +1932,10 @@ features of the IDPS Python API are mirrored here.</p>
     </div>
     
     
-    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.indexes", "navigation.tracking", "toc.follow", "content.code.copy", "navigation.footer", "content.tooltips"], "search": "../assets/javascripts/workers/search.f886a092.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.indexes", "navigation.tracking", "toc.follow", "content.code.copy", "navigation.footer", "content.tooltips"], "search": "../assets/javascripts/workers/search.c011b7c0.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
-      <script src="../assets/javascripts/bundle.d7c377c4.min.js"></script>
+      <script src="../assets/javascripts/bundle.7389ff0e.min.js"></script>
       
     
   </body>

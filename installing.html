@@ -20,7 +20,7 @@
       
       
       <link rel="icon" href="favicon.png">
-      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.3">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.4">
     
     
       
@@ -449,6 +449,8 @@
       
         
       
+        
+      
     
     
     
@@ -554,6 +556,27 @@
   
   <span class="md-ellipsis">
     Read the status of a cell
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="how-to/read-cellsets-footprint.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Read the footprint of a cell
   </span>
   
 
@@ -1007,13 +1030,11 @@ favorite package manager to install this in your project.</p>
 <div class="tabbed-set tabbed-alternate" data-tabs="1:2"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">pip</label><label for="__tabbed_1_2">poetry</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
-<div class="highlight"><pre><span></span><code><span class="c1"># you are strongly encouraged to install in a virtual envrionment</span>
-pip<span class="w"> </span>install<span class="w"> </span>isx
-</code></pre></div>
+<pre class="highlight"><code class="language-bash"># you are strongly encouraged to install in a virtual envrionment
+pip install isx</code></pre>
 </div>
 <div class="tabbed-block">
-<div class="highlight"><pre><span></span><code>poetry<span class="w"> </span>add<span class="w"> </span>isx
-</code></pre></div>
+<pre class="highlight"><code class="language-bash">poetry add isx</code></pre>
 </div>
 </div>
 </div>
@@ -1023,23 +1044,20 @@ pip<span class="w"> </span>install<span class="w"> </span>isx
 <p>The instructions below are only if you intend to develop <code>py_isx</code>. If you merely want to use this API to read data, you do not have to do this.</p>
 </div>
 <h3 id="get-the-code">Get the code<a class="headerlink" href="#get-the-code" title="Permanent link">&para;</a></h3>
-<div class="highlight"><pre><span></span><code>git<span class="w"> </span>clone<span class="w"> </span>git@github.com:inscopix/py_isx.git
-</code></pre></div>
+<pre class="highlight"><code class="language-bash">git clone git@github.com:inscopix/py_isx.git</code></pre>
 <h3 id="prerequisites">Prerequisites<a class="headerlink" href="#prerequisites" title="Permanent link">&para;</a></h3>
 <p>Make sure you have <a href="https://python-poetry.org/">poetry</a> and
 <a href="https://www.gnu.org/software/make//">make</a> installed. 
 Verify that both are installed:</p>
-<div class="highlight"><pre><span></span><code>make<span class="w"> </span>--version
-<span class="c1"># GNU Make 3.81</span>
+<pre class="highlight"><code class="language-bash">make --version
+# GNU Make 3.81
 
-poetry<span class="w"> </span>--version
-<span class="c1"># Poetry (version 1.7.1)</span>
-</code></pre></div>
+poetry --version
+# Poetry (version 1.7.1)</code></pre>
 <h3 id="install-locally">Install locally<a class="headerlink" href="#install-locally" title="Permanent link">&para;</a></h3>
 <p>You can then install the API locally by navigating to the directory you downloaded the code in, and running:</p>
-<div class="highlight"><pre><span></span><code>poetry<span class="w"> </span>lock
-poetry<span class="w"> </span>install<span class="w"> </span>--all-extras
-</code></pre></div>
+<pre class="highlight"><code class="language-bash">poetry lock
+poetry install --all-extras</code></pre>
 <p>Poetry installs using a "editable" install, so changes you make will be reflected in the code executed. </p>
 
 
@@ -1187,10 +1205,10 @@ poetry<span class="w"> </span>install<span class="w"> </span>--all-extras
     </div>
     
     
-    <script id="__config" type="application/json">{"base": ".", "features": ["navigation.indexes", "navigation.tracking", "toc.follow", "content.code.copy", "navigation.footer", "content.tooltips"], "search": "assets/javascripts/workers/search.f886a092.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": ".", "features": ["navigation.indexes", "navigation.tracking", "toc.follow", "content.code.copy", "navigation.footer", "content.tooltips"], "search": "assets/javascripts/workers/search.c011b7c0.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
-      <script src="assets/javascripts/bundle.d7c377c4.min.js"></script>
+      <script src="assets/javascripts/bundle.7389ff0e.min.js"></script>
       
     
   </body>
